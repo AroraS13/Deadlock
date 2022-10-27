@@ -1,0 +1,108 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50164
+Successfully changed project path to: /Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy
+/Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-08-17 00:58:30.414 Unity[28467:2147951] (null) preferred device: Apple M1 (high power)
+2022-08-17 00:58:30.414 Unity[28467:2147951] Metal devices available: 1
+2022-08-17 00:58:30.414 Unity[28467:2147951] 0: Apple M1 (high power)
+2022-08-17 00:58:30.415 Unity[28467:2147951] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56467
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000357 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 88.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.281 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000933 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/saket/Documents/Game Dev/DeadlockMovementEnv - Copy/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 84.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.7 MB.
+System memory in use after: 234.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 1.544375 ms (FindLiveObjects: 0.124250 ms CreateObjectMapping: 0.058459 ms MarkObjects: 1.305000 ms  DeleteObjects: 0.055500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/FullmovementTest.unity
+  artifactKey: Guid(b34a52e37d8294c13bc3d4932b9a56b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FullmovementTest.unity using Guid(b34a52e37d8294c13bc3d4932b9a56b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0cdd7a5d1beb3b8930755ac421fba1') in 0.017437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scenes/MovementEnv.unity
+  artifactKey: Guid(d4e4ee12deceee04ba589a89f5a0adc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MovementEnv.unity using Guid(d4e4ee12deceee04ba589a89f5a0adc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6416102b6accc071dde63b8f1a29c528') in 0.001040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Scenes/mTest.unity
+  artifactKey: Guid(f7f3272cfa081d14e89f52007763d9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mTest.unity using Guid(f7f3272cfa081d14e89f52007763d9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927e6ed36c6a442f9daae0612562d8bf') in 0.000784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.001037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.058259 seconds.
+  path: Assets/Scenes/FullmovementTest
+  artifactKey: Guid(4b88cb1c2dc28491999c8e867f6be9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FullmovementTest using Guid(4b88cb1c2dc28491999c8e867f6be9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced40cab8c2d94fde90eef3314b4e5b') in 0.001444 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3422.
+Total: 1.603708 ms (FindLiveObjects: 0.120791 ms CreateObjectMapping: 0.056709 ms MarkObjects: 1.416084 ms  DeleteObjects: 0.009542 ms)
+
